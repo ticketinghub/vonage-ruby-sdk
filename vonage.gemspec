@@ -12,13 +12,13 @@ Gem::Specification.new do |s|
   s.summary = 'This is the Ruby Server SDK for Vonage APIs. To use it you\'ll need a Vonage account. Sign up for free at https://www.vonage.com'
   s.files = Dir.glob('lib/**/*.rb') + %w(LICENSE.txt README.md vonage.gemspec)
   s.required_ruby_version = '>= 2.5.0'
-  s.add_dependency('vonage-jwt', git: 'https://github.com/ticketinghub/vonage-jwt-ruby.git', branch: 'jwt-v3')
   s.add_dependency('zeitwerk', '~> 2', '>= 2.2')
   s.add_dependency('sorbet-runtime', '~> 0.5')
   s.add_dependency('multipart-post', '~> 2.0')
   s.add_dependency('net-http-persistent', '~> 4.0', '>= 4.0.2')
   s.add_runtime_dependency('rexml')
   s.add_runtime_dependency('phonelib')
+  s.add_runtime_dependency('vonage-jwt', '~> 0.1')
   s.require_path = 'lib'
   s.metadata = {
     'homepage' => 'https://github.com/Vonage/vonage-ruby-sdk',

@@ -12,6 +12,7 @@ gem 'timecop'
 gem 'sorbet', :group => :development
 gem 'sorbet-runtime'
 gem 'phonelib'
+gem 'vonage-jwt', git: 'https://github.com/ticketinghub/vonage-jwt-ruby.git', branch: 'jwt-v3'
 gem 'codecov', :require => false, :group => :test
 group :test, :development do
   gem 'pry'
