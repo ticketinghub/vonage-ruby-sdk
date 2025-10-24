@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   s.add_dependency('net-http-persistent', '~> 4.0', '>= 4.0.2')
   s.add_runtime_dependency('rexml')
   s.add_runtime_dependency('phonelib')
-  s.add_runtime_dependency('vonage-jwt', '~> 0.1')
   s.require_path = 'lib'
   s.metadata = {
     'homepage' => 'https://github.com/Vonage/vonage-ruby-sdk',
